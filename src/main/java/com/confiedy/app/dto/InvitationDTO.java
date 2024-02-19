@@ -7,5 +7,28 @@ public class InvitationDTO {
     private String email;
     // Otros campos y relaciones
 
-    // Constructor por defecto, getters y setters
+
+    public Long getInvitationId() {
+        return invitationId;
+    }
+
+    public void setInvitationId(Long invitationId) {
+        this.invitationId = invitationId;
+    }
+
+    public UserDTO getInviter() {
+        return inviter;
+    }
+
+    public void setInviter(UserDTO inviter) {
+        this.inviter = inviter;
+    }
+
+    public String getEmail() {
+        return email;
+    }
+
+    public void setEmail(String email) {
+        this.email = email;
+    }
 }

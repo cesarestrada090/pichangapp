@@ -9,5 +9,36 @@ public class ParticipationConfirmationDTO {
     private LocalDateTime confirmationDate;
     // Otros campos y relaciones
 
-    // Constructor por defecto, getters y setters
+
+    public Long getConfirmationId() {
+        return confirmationId;
+    }
+
+    public void setConfirmationId(Long confirmationId) {
+        this.confirmationId = confirmationId;
+    }
+
+    public ChampionshipDTO getChampionship() {
+        return championship;
+    }
+
+    public void setChampionship(ChampionshipDTO championship) {
+        this.championship = championship;
+    }
+
+    public TeamDTO getTeam() {
+        return team;
+    }
+
+    public void setTeam(TeamDTO team) {
+        this.team = team;
+    }
+
+    public LocalDateTime getConfirmationDate() {
+        return confirmationDate;
+    }
+
+    public void setConfirmationDate(LocalDateTime confirmationDate) {
+        this.confirmationDate = confirmationDate;
+    }
 }

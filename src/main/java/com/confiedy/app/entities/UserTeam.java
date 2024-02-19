@@ -25,6 +25,27 @@ public class UserTeam {
     public UserTeam() {
     }
 
-    // Getters y setters
-    // Otros métodos
+    public Long getUserTeamId() {
+        return userTeamId;
+    }
+
+    public void setUserTeamId(Long userTeamId) {
+        this.userTeamId = userTeamId;
+    }
+
+    public User getUser() {
+        return user;
+    }
+
+    public void setUser(User user) {
+        this.user = user;
+    }
+
+    public Team getTeam() {
+        return team;
+    }
+
+    public void setTeam(Team team) {
+        this.team = team;
+    }
 }
