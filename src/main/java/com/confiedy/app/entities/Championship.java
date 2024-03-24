@@ -10,7 +10,7 @@ public class Championship {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Long championshipId;
+    private Integer championshipId;
 
     @Column(nullable = false)
     private String championshipName;
@@ -28,6 +28,36 @@ public class Championship {
     public Championship() {
     }
 
-    // Getters y setters
-    // Otros métodos
+    public Integer getChampionshipId() {
+        return championshipId;
+    }
+
+    public void setChampionshipId(Integer championshipId) {
+        this.championshipId = championshipId;
+    }
+
+    public String getChampionshipName() {
+        return championshipName;
+    }
+
+    public void setChampionshipName(String championshipName) {
+        this.championshipName = championshipName;
+    }
+
+    public User getCaptain() {
+        return captain;
+    }
+
+    public void setCaptain(User captain) {
+        this.captain = captain;
+    }
+
+    public LocalDate getChampionshipDate() {
+        return championshipDate;
+    }
+
+    public void setChampionshipDate(LocalDate championshipDate) {
+        this.championshipDate = championshipDate;
+    }
+
 }

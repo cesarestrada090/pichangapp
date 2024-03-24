@@ -1,11 +1,7 @@
 package com.confiedy.app.dto;
 
 
-import com.confiedy.app.entities.Curso;
 import com.confiedy.app.entities.Usuario;
-import jakarta.persistence.FetchType;
-import jakarta.persistence.JoinColumn;
-import jakarta.persistence.ManyToOne;
 import jakarta.validation.constraints.Size;
 
 import java.io.Serializable;
